@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Profile">
+
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="58dp">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="PROFILO"
+                            android:textColor="@color/colorPrimaryDark"
+                            android:textSize="20sp"
+                            android:layout_marginLeft="20dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_alignParentLeft="true"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintHorizontal_bias="0.0"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent" />
+
+
+                        <Button
+                            android:id="@+id/buttonLogOut"
+                            android:layout_alignParentRight="true"
+                            android:layout_marginTop="10dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="40dp"
+                            android:layout_marginRight="20dp"
+                            android:text="Logout"
+                            android:textColor="@color/white"
+                            android:background="@drawable/button_bg_rounded_corners"/>
+
+                    </RelativeLayout>
+
+
+        </RelativeLayout>
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="130dp">
+
+                <ProgressBar
+                    android:id="@+id/progressBarProfile"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="200dp"
+                    android:visibility="invisible"
+                    android:layout_gravity="center"
+                    android:indeterminateTint="@color/colorPrimary">
+
+                </ProgressBar>
+                <ScrollView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/profile"/>
+
+
+                    </ScrollView>
+
+            </RelativeLayout>
+
+</RelativeLayout>

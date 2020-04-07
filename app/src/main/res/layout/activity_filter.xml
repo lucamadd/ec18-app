@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:id="@+id/filterRelativeLayout"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".FilterActivity">
+
+    <androidx.appcompat.widget.AppCompatSpinner
+        android:id="@+id/firstSpinner"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="30dp"
+        android:foreground="@drawable/spinner_bg"
+        android:background="@color/gray">
+    </androidx.appcompat.widget.AppCompatSpinner>
+    <androidx.appcompat.widget.AppCompatSpinner
+        android:id="@+id/secondSpinner"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="100dp"
+        android:background="@color/white">
+    </androidx.appcompat.widget.AppCompatSpinner>
+</RelativeLayout>

@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity"
+    android:id="@+id/mainLayout"
+    android:focusableInTouchMode="true">
+
+    <LinearLayout
+        style="@style/df_row_vertical"
+        android:layout_height="match_parent"
+        android:weightSum="12">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="400dp"
+            android:layout_weight="5"
+            android:orientation="vertical"
+            android:background="@color/white"
+            android:gravity="center">
+
+            <ImageView
+                android:id="@+id/imageViewLogo"
+                android:layout_width="match_parent"
+                android:layout_height="203dp"
+                android:layout_gravity="center"
+                app:srcCompat="@mipmap/ic_launcher" />
+
+
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="6"
+            android:background="@color/white"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:padding="20dp">
+
+            <LinearLayout
+                android:id="@+id/sendOtpLayout"
+                android:background="@color/white"
+                style="@style/df_row_vertical"
+                android:layout_height="match_parent"
+                android:visibility="visible">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <com.google.android.material.textfield.TextInputLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        app:passwordToggleEnabled="true">
+                            <com.google.android.material.textfield.TextInputEditText
+                                android:id="@+id/loginMail"
+                                android:layout_width="match_parent"
+                                android:layout_height="40dp"
+                                android:hint="  Mail"
+                                android:textSize="15dp"
+                                android:background="@color/gray"
+                                android:inputType="textEmailAddress"
+                                android:singleLine="true" />
+                    </com.google.android.material.textfield.TextInputLayout>
+
+                </LinearLayout>
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:passwordToggleEnabled="true">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/loginPassword"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:hint="  Password"
+                        android:textSize="15dp"
+                        android:background="@color/gray"
+                        android:inputType="textPassword"
+                        android:singleLine="true" />
+
+                </com.google.android.material.textfield.TextInputLayout>
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:layout_marginTop="5dp">
+
+                    <androidx.appcompat.widget.AppCompatTextView
+                        android:id="@+id/recoveryPassword"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:clickable="true"
+                        android:text="Hai dimenticato la password? Clicca qui!"
+                        android:textColor="@color/blue"/>
+                </RelativeLayout>
+
+
+                <Button
+                    android:id="@+id/buttonLogin"
+                    style="@style/df4_btn_danger"
+                    android:layout_width="match_parent"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginTop="40dp"
+                    android:onClick="login"
+                    android:background="@drawable/button_bg_rounded_corners"
+                    android:text="Login" />
+
+                <Button
+                    android:id="@+id/buttonRegister"
+                    style="@style/df_h6"
+                    android:layout_width="200dp"
+                    android:layout_height="40dp"
+                    android:layout_marginTop="24dp"
+                    android:layout_gravity="center"
+                    android:text="Registrati"
+                    android:background="@drawable/button_bg_off"
+                    android:textColor="@color/white"
+                    android:textSize="12sp" />
+
+
+
+
+
+            </LinearLayout>
+
+            </RelativeLayout>
+        </LinearLayout>
+    </RelativeLayout>

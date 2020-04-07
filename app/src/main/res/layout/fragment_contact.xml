@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="58dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:text="CONTATTACI"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="20dp" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginTop="50dp"
+            android:layout_marginLeft="150dp"
+            android:layout_marginRight="150dp"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="140dp"
+                android:layout_height="150dp"
+                app:srcCompat="@mipmap/ic_launcher_foreground" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="v 1.0.0"
+                android:textSize="10dp"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="250dp">
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:background="@android:color/background_light"
+                android:text="@string/mail"
+                android:textColorLink="@color/colorPrimary"
+                android:autoLink="email"
+                android:textColor="@color/colorPrimary"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="300dp"
+                android:background="@android:color/background_light"
+                android:text="@string/sito"
+                android:textColorLink="@color/colorPrimary"
+                android:autoLink="web"
+                android:textColor="@color/colorPrimary"/>
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="350dp"
+                android:background="@android:color/background_light"
+                android:text="Sviluppatori"
+                android:textColor="@color/colorPrimary"/>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="420dp"
+                android:gravity="center_horizontal">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="Luca Maddaluno"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="30dp"
+                    android:gravity="center"
+                    android:text="Raffaele Meo"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="60dp"
+                    android:gravity="center"
+                    android:text="Marco Vitiello"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:gravity="center"
+                    android:textSize="10dp"
+                    android:text="*Per una corretta visualizzazione del sito è consigliato l'accesso da desktop"
+                    android:textColor="@color/colorPrimary"/>
+
+            </RelativeLayout>
+
+
+
+        </RelativeLayout>
+
+
+    </RelativeLayout>
+
+</RelativeLayout>

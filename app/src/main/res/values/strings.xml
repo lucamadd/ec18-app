@@ -1,0 +1,235 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+    <string name="app_name">EC-18</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="invia">Invia</string>
+    <string name="inserisci_qui_la_tua_mail">Inserisci qui la tua mail!</string>
+    <string name="mail">Inviaci una mail a ingsw2019@gmail.com</string>
+    <string name="sito">Visita il nostro sito WEB*bit.do/ec18</string>
+
+    <string-array name="Provincia">
+
+        <item android:id="@+id/AG" android:title="Agrigento" />
+
+        <item android:id="@+id/AL" android:title="Alessandria" />
+
+        <item android:id="@+id/AN" android:title="Ancona" />
+
+        <item android:id="@+id/AO" android:title="Aosta" />
+
+        <item android:id="@+id/AR" android:title="Arezzo" />
+
+        <item android:id="@+id/AP" android:title="Ascoli Piceno" />
+
+        <item android:id="@+id/AT" android:title="Asti" />
+
+        <item android:id="@+id/AV" android:title="Avellino" />
+
+        <item android:id="@+id/BA" android:title="Bari" />
+
+        <item android:id="@+id/BT" android:title="Barletta-Andria-Trani" />
+
+        <item android:id="@+id/BL" android:title="Belluno" />
+
+        <item android:id="@+id/BN" android:title="Benevento" />
+
+        <item android:id="@+id/BG" android:title="Bergamo" />
+
+        <item android:id="@+id/BI" android:title="Biella" />
+
+        <item android:id="@+id/BO" android:title="Bologna" />
+
+        <item android:id="@+id/BZ" android:title="Bolzano" />
+
+        <item android:id="@+id/BS" android:title="Brescia" />
+
+        <item android:id="@+id/BR" android:title="Brindisi" />
+
+        <item android:id="@+id/CA" android:title="Cagliari" />
+
+        <item android:id="@+id/CL" android:title="Caltanissetta" />
+
+        <item android:id="@+id/CB" android:title="Campobasso" />
+
+        <item android:id="@+id/CI" android:title="Carbonia-Iglesias" />
+
+        <item android:id="@+id/CE" android:title="Caserta" />
+
+        <item android:id="@+id/CT" android:title="Catania" />
+
+        <item android:id="@+id/CZ" android:title="Catanzaro" />
+
+        <item android:id="@+id/CH" android:title="Chieti" />
+
+        <item android:id="@+id/CO" android:title="Como" />
+
+        <item android:id="@+id/CS" android:title="Cosenza" />
+
+        <item android:id="@+id/CR" android:title="Cremona" />
+
+        <item android:id="@+id/KR" android:title="Crotone" />
+
+        <item android:id="@+id/CN" android:title="Cuneo" />
+
+        <item android:id="@+id/EN" android:title="Enna" />
+
+        <item android:id="@+id/FM" android:title="Fermo" />
+
+        <item android:id="@+id/FE" android:title="Ferrara" />
+
+        <item android:id="@+id/FI" android:title="Firenze" />
+
+        <item android:id="@+id/FG" android:title="Foggia" />
+
+        <item android:id="@+id/FC" android:title="Forli'-Cesena" />
+
+        <item android:id="@+id/FR" android:title="Frosinone" />
+
+        <item android:id="@+id/GE" android:title="Genova" />
+
+        <item android:id="@+id/GO" android:title="Gorizia" />
+
+        <item android:id="@+id/GR" android:title="Grosseto" />
+
+        <item android:id="@+id/IM" android:title="Imperia" />
+
+        <item android:id="@+id/IS" android:title="Isernia" />
+
+        <item android:id="@+id/AQ" android:title="L'Aquila" />
+
+        <item android:id="@+id/SP" android:title="La Spezia" />
+
+        <item android:id="@+id/LT" android:title="Latina" />
+
+        <item android:id="@+id/LE" android:title="Lecce" />
+
+        <item android:id="@+id/LC" android:title="Lecco" />
+
+        <item android:id="@+id/LI" android:title="Livorno" />
+
+        <item android:id="@+id/LO" android:title="Lodi" />
+
+        <item android:id="@+id/LU" android:title="Lucca" />
+
+        <item android:id="@+id/MC" android:title="Macerata" />
+
+        <item android:id="@+id/MN" android:title="Mantova" />
+
+        <item android:id="@+id/MS" android:title="Massa e Carrara" />
+
+        <item android:id="@+id/MT" android:title="Matera" />
+
+        <item android:id="@+id/VS" android:title="Medio Campidano" />
+
+        <item android:id="@+id/ME" android:title="Messina" />
+
+        <item android:id="@+id/MI" android:title="Milano" />
+
+        <item android:id="@+id/MO" android:title="Modena" />
+
+        <item android:id="@+id/MB" android:title="Monza e della Brianza" />
+
+        <item android:id="@+id/NA" android:title="Napoli" />
+
+        <item android:id="@+id/NO" android:title="Novara" />
+
+        <item android:id="@+id/NU" android:title="Nuoro" />
+
+        <item android:id="@+id/OG" android:title="Ogliastra" />
+
+        <item android:id="@+id/OT" android:title="Olbia-Tempio" />
+
+        <item android:id="@+id/OR" android:title="Oristano" />
+
+        <item android:id="@+id/PD" android:title="Padova" />
+
+        <item android:id="@+id/PA" android:title="Palermo" />
+
+        <item android:id="@+id/PR" android:title="Parma" />
+
+        <item android:id="@+id/PV" android:title="Pavia" />
+
+        <item android:id="@+id/PG" android:title="Perugia" />
+
+        <item android:id="@+id/PS" android:title="Pesaro e Urbino" />
+
+        <item android:id="@+id/PE" android:title="Pescara" />
+
+        <item android:id="@+id/PC" android:title="Piacenza" />
+
+        <item android:id="@+id/PI" android:title="Pisa" />
+
+        <item android:id="@+id/PT" android:title="Pistoia" />
+
+        <item android:id="@+id/PN" android:title="Pordenone" />
+
+        <item android:id="@+id/PZ" android:title="Potenza" />
+
+        <item android:id="@+id/PO" android:title="Prato" />
+
+        <item android:id="@+id/RG" android:title="Ragusa" />
+
+        <item android:id="@+id/RA" android:title="Ravenna" />
+
+        <item android:id="@+id/RC" android:title="Reggio Calabria" />
+
+        <item android:id="@+id/RE" android:title="Reggio Emilia" />
+
+        <item android:id="@+id/RI" android:title="Rieti" />
+
+        <item android:id="@+id/RN" android:title="Rimini" />
+
+        <item android:id="@+id/RM" android:title="Roma" />
+
+        <item android:id="@+id/RO" android:title="Rovigo" />
+
+        <item android:id="@+id/SA" android:title="Salerno" />
+
+        <item android:id="@+id/SS" android:title="Sassari" />
+
+        <item android:id="@+id/SV" android:title="Savona" />
+
+        <item android:id="@+id/SI" android:title="Siena" />
+
+        <item android:id="@+id/SR" android:title="Siracusa" />
+
+        <item android:id="@+id/SO" android:title="Sondrio" />
+
+        <item android:id="@+id/TA" android:title="Taranto" />
+
+        <item android:id="@+id/TE" android:title="Teramo" />
+
+        <item android:id="@+id/TR" android:title="Terni" />
+
+        <item android:id="@+id/TO" android:title="Torino" />
+
+        <item android:id="@+id/TP" android:title="Trapani" />
+
+        <item android:id="@+id/TN" android:title="Trento" />
+
+        <item android:id="@+id/TV" android:title="Treviso" />
+
+        <item android:id="@+id/TS" android:title="Trieste" />
+
+        <item android:id="@+id/UD" android:title="Udine" />
+
+        <item android:id="@+id/VA" android:title="Varese" />
+
+        <item android:id="@+id/VE" android:title="Venezia" />
+
+        <item android:id="@+id/VB" android:title="Verbano-Cusio-Ossola" />
+
+        <item android:id="@+id/VC" android:title="Vercelli" />
+
+        <item android:id="@+id/VR" android:title="Verona" />
+
+        <item android:id="@+id/VV" android:title="Vibo Valentia" />
+
+        <item android:id="@+id/VI" android:title="Vicenza" />
+
+        <item android:id="@+id/VT" android:title="Viterbo" />
+    </string-array>
+</resources>
