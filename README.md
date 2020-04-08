@@ -1,5 +1,5 @@
-# EC-18 ANDROID APP
-E' un sistema informativo finalizzato a una gestione di una moderna piattaforma e-commerce multicanale.
+# EC-18 Android app
+Sistema informativo finalizzato a una gestione di una moderna piattaforma e-commerce multicanale.
 ### Il sistema presenta due parti:
 - Back-End (website)
 - Front-End
