@@ -39,7 +39,7 @@ Le operazioni effettuate dall’utente sono:
   
 - Acquistare dei prodotti con gestione del carrello e dei pagamenti
 
-    <img src="asset/frontend_carrelloapp.jpg">
+    <img src="asset/frontend_carelloapp.jpg">
     
 - Rilasciare una valutazione sui prodotti acquistati 
 
